@@ -69,6 +69,7 @@ $ npm run dev
 
 Para correrlo en produccion solo se tiene que crear un archivo llamado `.env` con todos los datos que ya tiene `develop.env` y en campo `ENV` con el valor `production`
 
+Si estas en un OS basado en Linux puedes usar el script `npm run dev`, en Windows `npm run dev:window` para evitar problemas con el seteo de variables de proceso.
 
 <span id="license">
 ## :memo: Legal

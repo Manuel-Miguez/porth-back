@@ -4,7 +4,8 @@
   "description": "Prueba Tecnica",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --signal SIGHUP",
+    "dev": "ENV=develop nodemon --signal SIGHUP",
+    "dev:window": "set \"ENV=develop\" && nodemon --signal SIGHUP",
     "start": " tsc && node ./dist/index.js"
   },
   "author": "Manuel Miguez",
